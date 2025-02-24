@@ -45,15 +45,25 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
         btnCamisas = new javax.swing.JButton();
         btnZapatos = new javax.swing.JButton();
         ProductoCuatro = new javax.swing.JPanel();
+        btnEnviar4 = new javax.swing.JButton();
         ProductoCinco = new javax.swing.JPanel();
+        btnEnviar5 = new javax.swing.JButton();
         ProductoDiez = new javax.swing.JPanel();
+        btnEnviar10 = new javax.swing.JButton();
         ProductoNueve = new javax.swing.JPanel();
+        btnEnviar9 = new javax.swing.JButton();
         ProductoOcho = new javax.swing.JPanel();
+        btnEnviar8 = new javax.swing.JButton();
         ProductoTres = new javax.swing.JPanel();
+        btnEnviar3 = new javax.swing.JButton();
         ProductoDos = new javax.swing.JPanel();
+        btnEnviar2 = new javax.swing.JButton();
         ProductoSiete = new javax.swing.JPanel();
+        Enviar7 = new javax.swing.JButton();
         ProductoUno = new javax.swing.JPanel();
+        btnEnviar1 = new javax.swing.JButton();
         ProductoSeis = new javax.swing.JPanel();
+        btnEnviar6 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +76,11 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
         btnProductos.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         btnProductos.setForeground(new java.awt.Color(0, 0, 0));
         btnProductos.setText("Productos");
+        btnProductos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnProductosActionPerformed(evt);
+            }
+        });
 
         btnProvedores.setBackground(new java.awt.Color(255, 255, 255));
         btnProvedores.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -242,114 +257,244 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
         btnZapatos.setForeground(new java.awt.Color(153, 153, 153));
         btnZapatos.setText("Zapatos");
 
+        btnEnviar4.setText("Enviar");
+        btnEnviar4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar4ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout ProductoCuatroLayout = new javax.swing.GroupLayout(ProductoCuatro);
         ProductoCuatro.setLayout(ProductoCuatroLayout);
         ProductoCuatroLayout.setHorizontalGroup(
             ProductoCuatroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 228, Short.MAX_VALUE)
+            .addGroup(ProductoCuatroLayout.createSequentialGroup()
+                .addGap(84, 84, 84)
+                .addComponent(btnEnviar4)
+                .addContainerGap(85, Short.MAX_VALUE))
         );
         ProductoCuatroLayout.setVerticalGroup(
             ProductoCuatroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoCuatroLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar4)
+                .addGap(26, 26, 26))
         );
+
+        btnEnviar5.setText("Enviar");
+        btnEnviar5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoCincoLayout = new javax.swing.GroupLayout(ProductoCinco);
         ProductoCinco.setLayout(ProductoCincoLayout);
         ProductoCincoLayout.setHorizontalGroup(
             ProductoCincoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 216, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoCincoLayout.createSequentialGroup()
+                .addContainerGap(96, Short.MAX_VALUE)
+                .addComponent(btnEnviar5)
+                .addGap(81, 81, 81))
         );
         ProductoCincoLayout.setVerticalGroup(
             ProductoCincoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoCincoLayout.createSequentialGroup()
+                .addContainerGap(142, Short.MAX_VALUE)
+                .addComponent(btnEnviar5)
+                .addGap(28, 28, 28))
         );
+
+        btnEnviar10.setText("Enviar");
+        btnEnviar10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar10ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoDiezLayout = new javax.swing.GroupLayout(ProductoDiez);
         ProductoDiez.setLayout(ProductoDiezLayout);
         ProductoDiezLayout.setHorizontalGroup(
             ProductoDiezLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 216, Short.MAX_VALUE)
+            .addGroup(ProductoDiezLayout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addComponent(btnEnviar10)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         ProductoDiezLayout.setVerticalGroup(
             ProductoDiezLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 219, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoDiezLayout.createSequentialGroup()
+                .addContainerGap(162, Short.MAX_VALUE)
+                .addComponent(btnEnviar10)
+                .addGap(32, 32, 32))
         );
+
+        btnEnviar9.setText("Enviar");
+        btnEnviar9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar9ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoNueveLayout = new javax.swing.GroupLayout(ProductoNueve);
         ProductoNueve.setLayout(ProductoNueveLayout);
         ProductoNueveLayout.setHorizontalGroup(
             ProductoNueveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 228, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoNueveLayout.createSequentialGroup()
+                .addContainerGap(92, Short.MAX_VALUE)
+                .addComponent(btnEnviar9)
+                .addGap(77, 77, 77))
         );
         ProductoNueveLayout.setVerticalGroup(
             ProductoNueveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoNueveLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar9)
+                .addGap(28, 28, 28))
         );
+
+        btnEnviar8.setText("Enviar");
+        btnEnviar8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoOchoLayout = new javax.swing.GroupLayout(ProductoOcho);
         ProductoOcho.setLayout(ProductoOchoLayout);
         ProductoOchoLayout.setHorizontalGroup(
             ProductoOchoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 254, Short.MAX_VALUE)
+            .addGroup(ProductoOchoLayout.createSequentialGroup()
+                .addGap(97, 97, 97)
+                .addComponent(btnEnviar8)
+                .addContainerGap(98, Short.MAX_VALUE))
         );
         ProductoOchoLayout.setVerticalGroup(
             ProductoOchoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoOchoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar8)
+                .addGap(31, 31, 31))
         );
+
+        btnEnviar3.setText("Enviar");
+        btnEnviar3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar3ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoTresLayout = new javax.swing.GroupLayout(ProductoTres);
         ProductoTres.setLayout(ProductoTresLayout);
         ProductoTresLayout.setHorizontalGroup(
             ProductoTresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 254, Short.MAX_VALUE)
+            .addGroup(ProductoTresLayout.createSequentialGroup()
+                .addGap(94, 94, 94)
+                .addComponent(btnEnviar3)
+                .addContainerGap(101, Short.MAX_VALUE))
         );
         ProductoTresLayout.setVerticalGroup(
             ProductoTresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 195, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoTresLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar3)
+                .addGap(24, 24, 24))
         );
+
+        btnEnviar2.setText("Enviar");
+        btnEnviar2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoDosLayout = new javax.swing.GroupLayout(ProductoDos);
         ProductoDos.setLayout(ProductoDosLayout);
         ProductoDosLayout.setHorizontalGroup(
             ProductoDosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 267, Short.MAX_VALUE)
+            .addGroup(ProductoDosLayout.createSequentialGroup()
+                .addGap(99, 99, 99)
+                .addComponent(btnEnviar2)
+                .addContainerGap(117, Short.MAX_VALUE))
         );
         ProductoDosLayout.setVerticalGroup(
             ProductoDosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoDosLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar2)
+                .addGap(23, 23, 23))
         );
+
+        Enviar7.setText("Enviar");
+        Enviar7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Enviar7ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoSieteLayout = new javax.swing.GroupLayout(ProductoSiete);
         ProductoSiete.setLayout(ProductoSieteLayout);
         ProductoSieteLayout.setHorizontalGroup(
             ProductoSieteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 267, Short.MAX_VALUE)
+            .addGroup(ProductoSieteLayout.createSequentialGroup()
+                .addGap(103, 103, 103)
+                .addComponent(Enviar7)
+                .addContainerGap(105, Short.MAX_VALUE))
         );
         ProductoSieteLayout.setVerticalGroup(
             ProductoSieteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoSieteLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Enviar7)
+                .addGap(31, 31, 31))
         );
+
+        btnEnviar1.setText("Enviar");
+        btnEnviar1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoUnoLayout = new javax.swing.GroupLayout(ProductoUno);
         ProductoUno.setLayout(ProductoUnoLayout);
         ProductoUnoLayout.setHorizontalGroup(
             ProductoUnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 275, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoUnoLayout.createSequentialGroup()
+                .addContainerGap(111, Short.MAX_VALUE)
+                .addComponent(btnEnviar1)
+                .addGap(105, 105, 105))
         );
         ProductoUnoLayout.setVerticalGroup(
             ProductoUnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoUnoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar1)
+                .addGap(23, 23, 23))
         );
+
+        btnEnviar6.setText("Enviar");
+        btnEnviar6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEnviar6ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout ProductoSeisLayout = new javax.swing.GroupLayout(ProductoSeis);
         ProductoSeis.setLayout(ProductoSeisLayout);
         ProductoSeisLayout.setHorizontalGroup(
             ProductoSeisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 275, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoSeisLayout.createSequentialGroup()
+                .addContainerGap(114, Short.MAX_VALUE)
+                .addComponent(btnEnviar6)
+                .addGap(102, 102, 102))
         );
         ProductoSeisLayout.setVerticalGroup(
             ProductoSeisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ProductoSeisLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnEnviar6)
+                .addGap(29, 29, 29))
         );
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -369,9 +514,9 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
                             .addComponent(ProductoSeis, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ProductoDos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ProductoSiete, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(30, 30, 30)
+                            .addComponent(ProductoDos, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ProductoSiete, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(49, 49, 49)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(ProductoTres, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(ProductoOcho, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -380,10 +525,10 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
                             .addComponent(ProductoCuatro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(ProductoNueve, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(26, 26, 26)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ProductoCinco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ProductoDiez, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(226, 226, 226))
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(ProductoCinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(ProductoDiez, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(206, 206, 206))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(btnAll, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(65, 65, 65)
@@ -449,32 +594,110 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnProvedoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProvedoresActionPerformed
-        // TODO add your handling code here:
+        RegistroProvedoresAdministrador cambio = new RegistroProvedoresAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnProvedoresActionPerformed
 
     private void btnNotificacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNotificacionesActionPerformed
-        // TODO add your handling code here:
+        NotificacionesAdministrador cambio = new NotificacionesAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnNotificacionesActionPerformed
 
     private void btnTrasferenciasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTrasferenciasActionPerformed
-        // TODO add your handling code here:
+        TrasferenciasAdministrador cambio = new TrasferenciasAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnTrasferenciasActionPerformed
 
     private void btnVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVentasActionPerformed
-        // TODO add your handling code here:
+        VentasAdministrador cambio = new VentasAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnVentasActionPerformed
 
     private void btnPedidosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPedidosActionPerformed
-        // TODO add your handling code here:
+        PedidosAdministrador cambio = new PedidosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnPedidosActionPerformed
 
     private void btnPromocionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPromocionesActionPerformed
-        // TODO add your handling code here:
+        PromocionesAdministrador cambio = new PromocionesAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnPromocionesActionPerformed
 
     private void btnAnillosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAnillosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnAnillosActionPerformed
+
+    private void btnProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductosActionPerformed
+        ProductosAdministrador cambio= new ProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnProductosActionPerformed
+
+    private void btnEnviar9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar9ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar9ActionPerformed
+
+    private void btnEnviar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar2ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar2ActionPerformed
+
+    private void btnEnviar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar1ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar1ActionPerformed
+
+    private void btnEnviar3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar3ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar3ActionPerformed
+
+    private void btnEnviar4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar4ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar4ActionPerformed
+
+    private void btnEnviar5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar5ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar5ActionPerformed
+
+    private void btnEnviar6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar6ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar6ActionPerformed
+
+    private void Enviar7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Enviar7ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_Enviar7ActionPerformed
+
+    private void btnEnviar8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar8ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar8ActionPerformed
+
+    private void btnEnviar10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviar10ActionPerformed
+        EnviarProductosAdministrador cambio = new EnviarProductosAdministrador();
+        cambio.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnEnviar10ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -512,6 +735,7 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Enviar7;
     private javax.swing.JPanel ProductoCinco;
     private javax.swing.JPanel ProductoCuatro;
     private javax.swing.JPanel ProductoDiez;
@@ -526,6 +750,15 @@ public class PrincipalAdministrador extends javax.swing.JFrame {
     private javax.swing.JButton btnAll;
     private javax.swing.JButton btnAnillos;
     private javax.swing.JButton btnCamisas;
+    private javax.swing.JButton btnEnviar1;
+    private javax.swing.JButton btnEnviar10;
+    private javax.swing.JButton btnEnviar2;
+    private javax.swing.JButton btnEnviar3;
+    private javax.swing.JButton btnEnviar4;
+    private javax.swing.JButton btnEnviar5;
+    private javax.swing.JButton btnEnviar6;
+    private javax.swing.JButton btnEnviar8;
+    private javax.swing.JButton btnEnviar9;
     private javax.swing.JButton btnNotificaciones;
     private javax.swing.JButton btnPedidos;
     private javax.swing.JButton btnProductos;
