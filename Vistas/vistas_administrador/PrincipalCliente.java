@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
-package Vistas;
+package Vistas.vistas_administrador;
 
 /**
  *
