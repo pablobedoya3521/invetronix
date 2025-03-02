@@ -48,23 +48,23 @@ public class Principal_Admin extends javax.swing.JFrame {
         btnZapatos = new javax.swing.JButton();
         ProductoUno = new javax.swing.JPanel();
         btnEnviar1 = new javax.swing.JButton();
-        Producto5 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         ProductoDos = new javax.swing.JPanel();
         btnEnviar2 = new javax.swing.JButton();
-        Producto3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         lblCliente = new javax.swing.JLabel();
         ProductoUno1 = new javax.swing.JPanel();
         btnEnviar3 = new javax.swing.JButton();
-        Producto4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         ProductoUno2 = new javax.swing.JPanel();
         btnEnviar4 = new javax.swing.JButton();
-        Producto6 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         ProductoUno3 = new javax.swing.JPanel();
         btnEnviar5 = new javax.swing.JButton();
-        Producto7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         ProductoUno4 = new javax.swing.JPanel();
         btnEnviar6 = new javax.swing.JButton();
-        Producto1 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -230,9 +230,9 @@ public class Principal_Admin extends javax.swing.JFrame {
         ProductoUno.add(btnEnviar1);
         btnEnviar1.setBounds(60, 170, 80, 23);
 
-        Producto5.setIcon(new javax.swing.ImageIcon(getClass().getResource("views/Images/producto3.jpg"))); // NOI18N
-        ProductoUno.add(Producto5);
-        Producto5.setBounds(0, 0, 200, 200);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto3.jpg"))); // NOI18N
+        ProductoUno.add(jLabel4);
+        jLabel4.setBounds(0, 0, 200, 200);
 
         ProductoDos.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoDos.setLayout(null);
@@ -247,9 +247,9 @@ public class Principal_Admin extends javax.swing.JFrame {
         ProductoDos.add(btnEnviar2);
         btnEnviar2.setBounds(60, 170, 80, 23);
 
-        Producto3.setIcon(new javax.swing.ImageIcon(getClass().getResource("views/Images/producto1.png"))); // NOI18N
-        ProductoDos.add(Producto3);
-        Producto3.setBounds(0, 0, 200, 200);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto1.png"))); // NOI18N
+        ProductoDos.add(jLabel2);
+        jLabel2.setBounds(0, 0, 200, 200);
 
         lblCliente.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         lblCliente.setForeground(new java.awt.Color(255, 255, 255));
@@ -268,9 +268,9 @@ public class Principal_Admin extends javax.swing.JFrame {
         ProductoUno1.add(btnEnviar3);
         btnEnviar3.setBounds(60, 170, 80, 23);
 
-        Producto4.setIcon(new javax.swing.ImageIcon(getClass().getResource("views/Images/producto2.jpg"))); // NOI18N
-        ProductoUno1.add(Producto4);
-        Producto4.setBounds(0, 0, 200, 200);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto2.jpg"))); // NOI18N
+        ProductoUno1.add(jLabel3);
+        jLabel3.setBounds(0, 0, 200, 200);
 
         ProductoUno2.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno2.setLayout(null);
@@ -285,9 +285,9 @@ public class Principal_Admin extends javax.swing.JFrame {
         ProductoUno2.add(btnEnviar4);
         btnEnviar4.setBounds(60, 170, 80, 23);
 
-        Producto6.setIcon(new javax.swing.ImageIcon(getClass().getResource("views/Images/producto5.jpg"))); // NOI18N
-        ProductoUno2.add(Producto6);
-        Producto6.setBounds(0, 0, 200, 200);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto5.jpg"))); // NOI18N
+        ProductoUno2.add(jLabel5);
+        jLabel5.setBounds(0, 0, 200, 200);
 
         ProductoUno3.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno3.setLayout(null);
@@ -302,9 +302,9 @@ public class Principal_Admin extends javax.swing.JFrame {
         ProductoUno3.add(btnEnviar5);
         btnEnviar5.setBounds(60, 170, 80, 23);
 
-        Producto7.setIcon(new javax.swing.ImageIcon(getClass().getResource("views/Images/producto6.jpg"))); // NOI18N
-        ProductoUno3.add(Producto7);
-        Producto7.setBounds(0, 0, 200, 200);
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto7.jpg"))); // NOI18N
+        ProductoUno3.add(jLabel6);
+        jLabel6.setBounds(0, 0, 200, 200);
 
         ProductoUno4.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno4.setLayout(null);
@@ -319,9 +319,9 @@ public class Principal_Admin extends javax.swing.JFrame {
         ProductoUno4.add(btnEnviar6);
         btnEnviar6.setBounds(60, 170, 80, 23);
 
-        Producto1.setIcon(new javax.swing.ImageIcon(getClass().getResource("views/Images/producto7.jpg"))); // NOI18N
-        ProductoUno4.add(Producto1);
-        Producto1.setBounds(0, 0, 200, 200);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto5.jpg"))); // NOI18N
+        ProductoUno4.add(jLabel7);
+        jLabel7.setBounds(0, 0, 200, 200);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -556,12 +556,6 @@ public class Principal_Admin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Producto1;
-    private javax.swing.JLabel Producto3;
-    private javax.swing.JLabel Producto4;
-    private javax.swing.JLabel Producto5;
-    private javax.swing.JLabel Producto6;
-    private javax.swing.JLabel Producto7;
     private javax.swing.JPanel ProductoDos;
     private javax.swing.JPanel ProductoUno;
     private javax.swing.JPanel ProductoUno1;
@@ -587,6 +581,12 @@ public class Principal_Admin extends javax.swing.JFrame {
     private javax.swing.JButton btnVentas;
     private javax.swing.JButton btnZapatos;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

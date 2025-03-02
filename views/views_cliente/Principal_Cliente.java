@@ -45,32 +45,32 @@ public class Principal_Cliente extends javax.swing.JFrame {
         lblMonto = new javax.swing.JLabel();
         ProductoUno = new javax.swing.JPanel();
         btnComprar4 = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         btnAll = new javax.swing.JButton();
         ProductoUno1 = new javax.swing.JPanel();
         btnComprar7 = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         ProductoUno2 = new javax.swing.JPanel();
         btnComprar8 = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         ProductoUno3 = new javax.swing.JPanel();
         btnComprar9 = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         ProductoUno4 = new javax.swing.JPanel();
         btnComprar10 = new javax.swing.JButton();
-        jLabel8 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         ProductoUno5 = new javax.swing.JPanel();
         btnComprar11 = new javax.swing.JButton();
-        jLabel9 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         ProductoUno6 = new javax.swing.JPanel();
         btnComprar12 = new javax.swing.JButton();
-        jLabel10 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         ProductoUno7 = new javax.swing.JPanel();
         btnComprar13 = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         ProductoUno8 = new javax.swing.JPanel();
         btnComprar14 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         btnProductoUno1 = new javax.swing.JButton();
         btnProductoDos1 = new javax.swing.JButton();
@@ -158,7 +158,7 @@ public class Principal_Cliente extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel2);
-        jPanel2.setBounds(6, 0, 0, 0);
+        jPanel2.setBounds(6, 0, 352, 796);
 
         jPanel4.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -228,9 +228,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno.add(btnComprar4);
         btnComprar4.setBounds(30, 160, 136, 23);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto1.png"))); // NOI18N
-        ProductoUno.add(jLabel4);
-        jLabel4.setBounds(0, 0, 200, 200);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto1.png"))); // NOI18N
+        ProductoUno.add(jLabel3);
+        jLabel3.setBounds(0, 0, 200, 200);
 
         btnAll.setBackground(new java.awt.Color(51, 0, 0));
         btnAll.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
@@ -250,9 +250,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno1.add(btnComprar7);
         btnComprar7.setBounds(30, 160, 136, 23);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto2.jpg"))); // NOI18N
-        ProductoUno1.add(jLabel5);
-        jLabel5.setBounds(0, 0, 200, 200);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto2.jpg"))); // NOI18N
+        ProductoUno1.add(jLabel4);
+        jLabel4.setBounds(0, 0, 200, 200);
 
         ProductoUno2.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno2.setLayout(null);
@@ -267,9 +267,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno2.add(btnComprar8);
         btnComprar8.setBounds(30, 160, 136, 23);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto1.png"))); // NOI18N
-        ProductoUno2.add(jLabel11);
-        jLabel11.setBounds(0, 0, 200, 200);
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto7.jpg"))); // NOI18N
+        ProductoUno2.add(jLabel10);
+        jLabel10.setBounds(0, 0, 200, 200);
 
         ProductoUno3.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno3.setLayout(null);
@@ -284,9 +284,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno3.add(btnComprar9);
         btnComprar9.setBounds(30, 160, 136, 23);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto5.jpg"))); // NOI18N
-        ProductoUno3.add(jLabel7);
-        jLabel7.setBounds(0, 0, 200, 200);
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto5.jpg"))); // NOI18N
+        ProductoUno3.add(jLabel6);
+        jLabel6.setBounds(0, 0, 200, 200);
 
         ProductoUno4.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno4.setLayout(null);
@@ -301,9 +301,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno4.add(btnComprar10);
         btnComprar10.setBounds(30, 160, 136, 23);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto6.jpg"))); // NOI18N
-        ProductoUno4.add(jLabel8);
-        jLabel8.setBounds(0, 0, 200, 200);
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto1.png"))); // NOI18N
+        ProductoUno4.add(jLabel7);
+        jLabel7.setBounds(0, 0, 200, 200);
 
         ProductoUno5.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno5.setLayout(null);
@@ -318,9 +318,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno5.add(btnComprar11);
         btnComprar11.setBounds(30, 160, 136, 23);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto7.jpg"))); // NOI18N
-        ProductoUno5.add(jLabel9);
-        jLabel9.setBounds(0, 0, 200, 200);
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto6.jpg"))); // NOI18N
+        ProductoUno5.add(jLabel8);
+        jLabel8.setBounds(0, 0, 200, 200);
 
         ProductoUno6.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno6.setLayout(null);
@@ -335,9 +335,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno6.add(btnComprar12);
         btnComprar12.setBounds(30, 160, 136, 23);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto1.png"))); // NOI18N
-        ProductoUno6.add(jLabel10);
-        jLabel10.setBounds(0, 0, 200, 200);
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto3.jpg"))); // NOI18N
+        ProductoUno6.add(jLabel9);
+        jLabel9.setBounds(0, 0, 200, 200);
 
         ProductoUno7.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno7.setLayout(null);
@@ -352,9 +352,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno7.add(btnComprar13);
         btnComprar13.setBounds(30, 160, 136, 23);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto3.jpg"))); // NOI18N
-        ProductoUno7.add(jLabel6);
-        jLabel6.setBounds(0, 0, 200, 200);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto3.jpg"))); // NOI18N
+        ProductoUno7.add(jLabel5);
+        jLabel5.setBounds(0, 0, 200, 200);
 
         ProductoUno8.setPreferredSize(new java.awt.Dimension(200, 200));
         ProductoUno8.setLayout(null);
@@ -369,9 +369,9 @@ public class Principal_Cliente extends javax.swing.JFrame {
         ProductoUno8.add(btnComprar14);
         btnComprar14.setBounds(30, 160, 136, 23);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/producto1.png"))); // NOI18N
-        ProductoUno8.add(jLabel3);
-        jLabel3.setBounds(0, 0, 200, 200);
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/producto5.jpg"))); // NOI18N
+        ProductoUno8.add(jLabel11);
+        jLabel11.setBounds(0, 0, 200, 200);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -510,7 +510,7 @@ public class Principal_Cliente extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 374, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 888, Short.MAX_VALUE)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 888, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())

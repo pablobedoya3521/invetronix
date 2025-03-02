@@ -44,6 +44,7 @@ public class Admin_Promociones extends javax.swing.JFrame {
         btnInfoExtraNotificaciones = new javax.swing.JButton();
         btnInformacionExtraNotificaciones = new javax.swing.JButton();
         PanelVentas = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
         btnVolverNotificaciones = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -179,15 +180,21 @@ public class Admin_Promociones extends javax.swing.JFrame {
         btnInformacionExtraNotificaciones.setBackground(new java.awt.Color(153, 255, 255));
         btnInformacionExtraNotificaciones.setText("Ver informacion extra");
 
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/Images/estadisticas.jpg"))); // NOI18N
+
         javax.swing.GroupLayout PanelVentasLayout = new javax.swing.GroupLayout(PanelVentas);
         PanelVentas.setLayout(PanelVentasLayout);
         PanelVentasLayout.setHorizontalGroup(
             PanelVentasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 577, Short.MAX_VALUE)
+            .addGroup(PanelVentasLayout.createSequentialGroup()
+                .addComponent(jLabel7)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         PanelVentasLayout.setVerticalGroup(
             PanelVentasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(PanelVentasLayout.createSequentialGroup()
+                .addComponent(jLabel7)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         btnVolverNotificaciones.setBackground(new java.awt.Color(102, 0, 0));
@@ -282,6 +289,7 @@ public class Admin_Promociones extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
