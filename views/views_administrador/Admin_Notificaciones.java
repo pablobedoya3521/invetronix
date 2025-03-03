@@ -30,8 +30,8 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel5 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        lblNotificaciones = new javax.swing.JLabel();
+        lblInvetronix = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         panelNotificacion1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -43,9 +43,7 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         btnInfoExtraNotificaciones = new javax.swing.JButton();
         btnInfoExtraNotificaciones2 = new javax.swing.JButton();
-        panelEstadisticas = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
-        btnVolverNotificaciones = new javax.swing.JButton();
+        btnVolver = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
 
@@ -53,13 +51,13 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
 
         jPanel5.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel2.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Notificaciones");
+        lblNotificaciones.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        lblNotificaciones.setForeground(new java.awt.Color(255, 255, 255));
+        lblNotificaciones.setText("Notificaciones");
 
-        jLabel3.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("INVETRONIX");
+        lblInvetronix.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        lblInvetronix.setForeground(new java.awt.Color(255, 255, 255));
+        lblInvetronix.setText("INVETRONIX");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -67,9 +65,9 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
-                .addComponent(jLabel3)
+                .addComponent(lblInvetronix)
                 .addGap(211, 211, 211)
-                .addComponent(jLabel2)
+                .addComponent(lblNotificaciones)
                 .addContainerGap(372, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -77,8 +75,8 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(60, 60, 60)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                    .addComponent(lblNotificaciones)
+                    .addComponent(lblInvetronix))
                 .addContainerGap(76, Short.MAX_VALUE))
         );
 
@@ -182,28 +180,11 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
         btnInfoExtraNotificaciones2.setBackground(new java.awt.Color(153, 255, 255));
         btnInfoExtraNotificaciones2.setText("Ver informacion extra");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/estadisticas.jpg"))); // NOI18N
-
-        javax.swing.GroupLayout panelEstadisticasLayout = new javax.swing.GroupLayout(panelEstadisticas);
-        panelEstadisticas.setLayout(panelEstadisticasLayout);
-        panelEstadisticasLayout.setHorizontalGroup(
-            panelEstadisticasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelEstadisticasLayout.createSequentialGroup()
-                .addComponent(jLabel8)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        panelEstadisticasLayout.setVerticalGroup(
-            panelEstadisticasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelEstadisticasLayout.createSequentialGroup()
-                .addComponent(jLabel8)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-
-        btnVolverNotificaciones.setBackground(new java.awt.Color(102, 0, 0));
-        btnVolverNotificaciones.setText("Volver");
-        btnVolverNotificaciones.addActionListener(new java.awt.event.ActionListener() {
+        btnVolver.setBackground(new java.awt.Color(102, 0, 0));
+        btnVolver.setText("Volver");
+        btnVolver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnVolverNotificacionesActionPerformed(evt);
+                btnVolverActionPerformed(evt);
             }
         });
 
@@ -237,12 +218,10 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
                             .addComponent(panelNotificacion2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(panelNotificacion3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(panelNotificacion4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(panelEstadisticas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGap(18, 18, 18)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(btnVolverNotificaciones)
+                        .addComponent(btnVolver)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addComponent(btnInfoExtraNotificaciones2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 1048, Short.MAX_VALUE)
                             .addComponent(btnInfoExtraNotificaciones, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
@@ -261,14 +240,13 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(panelNotificacion3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(panelNotificacion4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(panelEstadisticas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(panelNotificacion4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addComponent(btnInfoExtraNotificaciones, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnInfoExtraNotificaciones2, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
-                .addComponent(btnVolverNotificaciones)
+                .addComponent(btnVolver)
                 .addGap(18, 18, 18))
         );
 
@@ -293,29 +271,27 @@ public class Admin_Notificaciones extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnVolverNotificacionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverNotificacionesActionPerformed
+    private void btnVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverActionPerformed
         Principal_Admin cambio = new Principal_Admin();
         cambio.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_btnVolverNotificacionesActionPerformed
+    }//GEN-LAST:event_btnVolverActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnInfoExtraNotificaciones;
     private javax.swing.JButton btnInfoExtraNotificaciones2;
-    private javax.swing.JButton btnVolverNotificaciones;
+    private javax.swing.JButton btnVolver;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel panelEstadisticas;
+    private javax.swing.JLabel lblInvetronix;
+    private javax.swing.JLabel lblNotificaciones;
     private javax.swing.JPanel panelNotificacion1;
     private javax.swing.JPanel panelNotificacion2;
     private javax.swing.JPanel panelNotificacion3;
