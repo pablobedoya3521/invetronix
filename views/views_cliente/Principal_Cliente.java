@@ -36,6 +36,7 @@ public class Principal_Cliente extends javax.swing.JFrame {
         btnProductoTres = new javax.swing.JButton();
         btnProductoCuatro = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         btnCliente = new javax.swing.JButton();
@@ -159,6 +160,11 @@ public class Principal_Cliente extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2);
         jPanel2.setBounds(6, 0, 352, 796);
+
+        jButton1.setBackground(new java.awt.Color(0, 51, 51));
+        jButton1.setText("Pedir");
+        jPanel1.add(jButton1);
+        jButton1.setBounds(80, 810, 200, 40);
 
         jPanel4.setBackground(new java.awt.Color(0, 0, 0));
 
@@ -640,6 +646,7 @@ public class Principal_Cliente extends javax.swing.JFrame {
     private javax.swing.JButton btnProductoTres1;
     private javax.swing.JButton btnProductoUno;
     private javax.swing.JButton btnProductoUno1;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
